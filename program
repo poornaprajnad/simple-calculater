@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main ()
+{
+    float a,b,res;
+    char op;
+    printf("Enter the expression:");
+    scanf("%f %c %f",&a,&op,&b);
+    switch(op)
+    {
+        case'+':res=a+b;
+        printf("Result is %f",res);
+        break;
+        case'-':res=a-b;
+        printf("Result is %f",res);
+        break;
+        case'*':res=a*b;
+        printf("Result is %f",res);
+        break;
+        case'/':res=a/b;
+        printf("Result is %f",res);
+        break;
+    }
+}
